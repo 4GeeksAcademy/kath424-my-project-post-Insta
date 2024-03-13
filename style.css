@@ -1,0 +1,64 @@
+body{
+    background-color: #181717;
+    font-family: "Roboto", sans-serif;
+    margin: 10% auto;
+}
+.post{
+    width: 450px;
+    margin: 0 auto;
+    background-color: white;
+}
+.post header,
+.post__icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.post__logo,
+.post__option{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+post__user{
+    margin: .5rem;
+}
+.post__user p{
+    margin: 0 1rem;
+    font-size: 16px;
+    margin-left: 1rem;
+}
+
+/*POST IMAGE*/
+.post__img img{
+ background-image: url('/paisaje.jpg');
+ width: 100%;
+ height: 350px;
+ background-size: cover;
+}
+
+/*POST INSTAGRAM ICONS*/
+.post__icon{
+    font-size: 1.8rem;
+}
+.post__icons--various{
+    display: flex;
+    align-items: center;  
+}
+.post__icons--various > :nth-child(2){
+    margin: 0 1rem;
+}
+
+/*POST INSTAGRAM BODY*/
+.post__body{
+    padding: 0 1rem 1rem;
+}
+.post__body--like {
+    margin: 0;
+    font-size: .9rem;
+    color: #363636;
+}
+.post__body--description{
+    color: #363636;
+}
